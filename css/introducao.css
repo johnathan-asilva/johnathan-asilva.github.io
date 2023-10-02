@@ -15,6 +15,13 @@
   position: relative;
 }
 
+.introducao span {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+}
+
 .introducao h1::before {
   content: "";
   display: block;
@@ -25,13 +32,6 @@
   top: -15px;
   left: -40px;
   z-index: -1;
-}
-
-.introducao span {
-  font-weight: 700;
-  font-size: 4.5rem;
-  line-height: 1.125;
-  margin-bottom: 30px;
 }
 
 .introducao p {
